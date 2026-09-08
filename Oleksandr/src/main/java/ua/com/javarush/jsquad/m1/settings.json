@@ -1,0 +1,41 @@
+{
+  "island": {
+    "width": 100,
+    "height": 20
+  },
+  "characteristics": {
+    "Wolf": { "weight": 50.0, "maxPerCell": 30, "speed": 3, "maxFoodNeeded": 8.0 },
+    "Boa": { "weight": 15.0, "maxPerCell": 30, "speed": 1, "maxFoodNeeded": 3.0 },
+    "Fox": { "weight": 8.0, "maxPerCell": 30, "speed": 2, "maxFoodNeeded": 2.0 },
+    "Bear": { "weight": 500.0, "maxPerCell": 5, "speed": 2, "maxFoodNeeded": 80.0 },
+    "Eagle": { "weight": 6.0, "maxPerCell": 20, "speed": 3, "maxFoodNeeded": 1.0 },
+    "Horse": { "weight": 400.0, "maxPerCell": 20, "speed": 4, "maxFoodNeeded": 60.0 },
+    "Deer": { "weight": 300.0, "maxPerCell": 20, "speed": 4, "maxFoodNeeded": 50.0 },
+    "Rabbit": { "weight": 2.0, "maxPerCell": 150, "speed": 2, "maxFoodNeeded": 0.45 },
+    "Mouse": { "weight": 0.05, "maxPerCell": 500, "speed": 1, "maxFoodNeeded": 0.01 },
+    "Goat": { "weight": 60.0, "maxPerCell": 140, "speed": 3, "maxFoodNeeded": 10.0 },
+    "Sheep": { "weight": 70.0, "maxPerCell": 140, "speed": 3, "maxFoodNeeded": 15.0 },
+    "Boar": { "weight": 400.0, "maxPerCell": 50, "speed": 2, "maxFoodNeeded": 50.0 },
+    "Buffalo": { "weight": 700.0, "maxPerCell": 10, "speed": 3, "maxFoodNeeded": 100.0 },
+    "Duck": { "weight": 1.0, "maxPerCell": 200, "speed": 4, "maxFoodNeeded": 0.15 },
+    "Caterpillar": { "weight": 0.01, "maxPerCell": 1000, "speed": 0, "maxFoodNeeded": 0.0 },
+    "Plant": { "weight": 1.0, "maxPerCell": 200, "speed": 0, "maxFoodNeeded": 0.0 }
+  },
+  "probabilities": {
+    "Wolf": { "Horse": 10, "Deer": 15, "Rabbit": 60, "Mouse": 80, "Goat": 60, "Sheep": 70, "Boar": 15, "Buffalo": 10, "Duck": 40 },
+    "Boa": { "Fox": 15, "Rabbit": 20, "Mouse": 40, "Duck": 10 },
+    "Fox": { "Rabbit": 70, "Mouse": 90, "Duck": 60, "Caterpillar": 40 },
+    "Bear": { "Boa": 80, "Horse": 40, "Deer": 80, "Rabbit": 80, "Mouse": 90, "Goat": 70, "Sheep": 70, "Boar": 50, "Buffalo": 20, "Duck": 10 },
+    "Eagle": { "Fox": 10, "Rabbit": 90, "Mouse": 90, "Duck": 80 },
+    "Boar": { "Mouse": 50, "Caterpillar": 90, "Plant": 100 },
+    "Duck": { "Caterpillar": 90, "Plant": 100 },
+    "Mouse": { "Caterpillar": 90, "Plant": 100 },
+    "Horse": { "Plant": 100 },
+    "Deer": { "Plant": 100 },
+    "Rabbit": { "Plant": 100 },
+    "Goat": { "Plant": 100 },
+    "Sheep": { "Plant": 100 },
+    "Buffalo": { "Plant": 100 },
+    "Caterpillar": { "Plant": 100 }
+  }
+}
